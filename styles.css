@@ -2,23 +2,17 @@
     display: none; /* Скрывает элементы, чтобы они не отображались на странице */
 }
 
-/* Стили по умолчанию для десктопов */
+/* Базовые стили для десктопов */
 body {
     font-size: 16px;
 }
 
-/* Стили для планшетов */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
+@media (max-width: 480px) {
+    /* Стили для мобильных устройств */
 }
 
-/* Стили для мобильных устройств */
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Стили для планшетов */
 }
 
 body {
@@ -173,4 +167,79 @@ footer {
     color: white; /* Устанавливает белый цвет текста */
     text-align: center; /* Центрирует текст */
     padding: 10px 0; /* Добавляет внутренние отступы сверху и снизу */
+}
+
+
+/* Базовые стили для десктопов */
+body {
+    font-size: 16px;
+}
+
+  /* Стили для планшетов */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+    font-size: 14px;
+    }
+
+header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    }
+
+.logo-container,
+.site-title,
+.contact-container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    }
+
+.site-title {
+    margin-right: 0;
+    text-align: left;
+    }
+
+.contact-container {
+    justify-content: flex-start;
+    height: auto;
+    }
+}
+
+  /* Стили для мобильных устройств */
+@media (max-width: 480px) {
+    body {
+    font-size: 12px;
+    }
+
+header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    }
+
+.logo-container,
+.site-title,
+.contact-container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    }
+
+.site-title {
+    margin-right: 0;
+    text-align: left;
+    }
+
+.contact-container {
+    justify-content: flex-start;
+    height: auto;
+    }
+
+aside.sidebar-l,
+aside.sidebar-r {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    }
 }
