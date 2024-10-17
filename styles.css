@@ -165,28 +165,18 @@ footer {
     }
 
     header,
-    .logo-container,
-    .site-title,
-    .contact-container,
-    aside.sidebar-l,
-    aside.sidebar-r {
+    main,
+    footer {
         flex-direction: column; /* Располагаем элементы в колонку */
         width: 100%; /* Ширина на 100% */
         padding: 10px; /* Уменьшаем отступы */
     }
 
-    .contact-container {
-        flex-direction: column; /* Располагаем элементы в колонку */
-        align-items: flex-start; /* Выравниваем по левому краю */
+    aside {
+        width: 100%; /* Ширина боковых панелей на 100% */
     }
 
     .content {
-        padding: 10px; /* Уменьшаем отступы */
-    }
-
-    aside.sidebar-l,
-    aside.sidebar-r {
-        width: 100%; /* Ширина боковых панелей на 100% */
         padding: 10px; /* Уменьшаем отступы */
     }
 }
@@ -198,28 +188,18 @@ footer {
     }
 
     header,
-    .logo-container,
-    .site-title,
-    .contact-container,
-    aside.sidebar-l,
-    aside.sidebar-r {
+    main,
+    footer {
         flex-direction: column; /* Располагаем элементы в колонку */
         width: 100%; /* Ширина на 100% */
         padding: 15px; /* Уменьшаем отступы */
     }
 
-    .contact-container {
-        flex-direction: column; /* Располагаем элементы в колонку */
-        align-items: flex-start; /* Выравниваем по левому краю */
+    aside {
+        width: 100%; /* Ширина боковых панелей на 100% */
     }
 
     .content {
-        padding: 15px; /* Уменьшаем отступы */
-    }
-
-    aside.sidebar-l,
-    aside.sidebar-r {
-        width: 100%; /* Ширина боковых панелей на 100% */
         padding: 15px; /* Уменьшаем отступы */
     }
 }
