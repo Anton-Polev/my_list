@@ -144,6 +144,7 @@ footer {
 
     .site-title {
         text-align: center; /* Выравнивание влево для мобильных устройств */
+        padding: 0;
         margin: 0;
         /* padding-right: 5%; Уменьшите отступ справа */
         /* margin-right: 5%; Уменьшите правый отступ */
@@ -190,8 +191,10 @@ footer {
 
     .site-title {
         text-align: center; /* Выравнивание влево для планшетов */
-        padding-right: 10%; /* Уменьшите отступ справа */
-        margin-right: 10%; /* Уменьшите правый отступ */
+        padding: 0;
+        margin: 0;
+        /* padding-right: 10%; Уменьшите отступ справа */
+        /* margin-right: 10%; Уменьшите правый отступ */
     }
 
     main {
