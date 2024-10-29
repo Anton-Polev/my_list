@@ -144,6 +144,7 @@ footer {
 
     .site-title {
         text-align: center; /* Выравнивание влево для мобильных устройств */
+        margin: 0;
         /* padding-right: 5%; Уменьшите отступ справа */
         /* margin-right: 5%; Уменьшите правый отступ */
     }
